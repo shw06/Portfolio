@@ -22,7 +22,6 @@ ul {
 .header-nav, 
 ul,
 .link,
-.info-1,
 .contact-me,
 .about-grid,
 .copyright,
@@ -88,14 +87,16 @@ h5 {
 }
 
 .info-1 p {
-    font-weight: 500;
+    color: #0000009c;
+    font-weight: 600;
     font-size: 18px;
     margin-bottom: 12px;
     margin-top: 10px;
 }
 
 .info-1 h5 {
-    font-weight: 500;
+    color: #0000009c;
+    font-weight: 600;
     font-size: 18px;
     text-align: center;
     margin: 0;
@@ -181,7 +182,7 @@ h4#footer-head {
 
 /* about.html */
 #skillsnproject {
-    
+    display: flex;  
 }
 .about-info {
     color: #000000;
